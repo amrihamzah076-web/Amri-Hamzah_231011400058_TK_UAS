@@ -1,6 +1,8 @@
-# Tugas Proyek Akhir: Representasi Tahapan Kompilasi
+# Tugas Proyek Akhir (UAS) : Representasi Tahapan Kompilasi
 
-**Oleh:** Amri Hamzah  
+**NAMA:** Amri Hamzah
+**NIM:** 231011400058
+**KELAS:** 06 TPLE 002
 **Mata Kuliah:** Teknik Kompilasi
 
 ---
