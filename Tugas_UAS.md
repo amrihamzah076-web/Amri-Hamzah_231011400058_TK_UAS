@@ -22,6 +22,9 @@ Pola tata bahasa didefinisikan menggunakan pendekatan *Backus-Naur Form* (BNF) s
 <expression> ::= <identifier> | <value> | <identifier> <arithmetic_op> <value>
 <img width="499" height="519" alt="WhatsApp Image 2024-10-26 at 14 12 02" src="https://github.com/user-attachments/assets/c5b912c1-eb69-4254-a45c-ee97505a9234" />
 ```
+
+---
+
 ## 3. Implementasi Program
 Berikut adalah simulasi compiler pipeline menggunakan bahasa pemrograman Python. Program ini memodelkan keempat tahapan secara terstruktur: memecah token, membentuk Abstract Syntax Tree (AST) sederhana, memvalidasi semantik melalui symbol table tiruan, dan merakitnya menjadi bentuk TAC.
 
@@ -136,6 +139,8 @@ if __name__ == "__main__":
     compiler.compile()`
 ````
 
+---
+
 ## 4. Penjelasan & Dokumentasi Tahapan
 Program yang telah dibuat mensimulasikan keempat tahapan penting kompilasi untuk konstruksi `while` loop. Berikut rincian cara kerja dari tiap tahapan:
 
@@ -174,8 +179,6 @@ Jika benar, jalankan body di dalamnya.
 Setelah body dieksekusi, paksa program kembali melompat ke titik awal (`goto L1`) untuk mengevaluasi ulang kondisi.
 
 Output (TAC):
-
-Plaintext
 `L1:
 ifFalse x < 10 goto L2
     x = x + 1;
